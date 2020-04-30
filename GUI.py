@@ -20,7 +20,7 @@ class MyFrame(Frame):
 
         # Display the text here
         self.my_text = StringVar()
-        self.my_text.set("Enter your name above")
+        self.my_text.set("Enter your full name above")
         self.message = Label(self, textvariable = self.my_text, font = "Courier 8")
         self.message.grid(row = 1, columnspan = 3, pady = 20)
 
