@@ -24,10 +24,10 @@ class Feedback:
         
         self.logo = PhotoImage(file = 'tour_logo.gif')
         ttk.Label(self.frame_header, image = self.logo).grid(row = 0, column = 0, rowspan = 2)
-        ttk.Label(self.frame_header, text = 'Thanks for Exploring!', style = 'Header.TLabel').grid(row = 0, column = 1)
+        ttk.Label(self.frame_header, text = 'Thanks for Visiting !', style = 'Header.TLabel').grid(row = 0, column = 1)
         ttk.Label(self.frame_header, wraplength = 300,
-                  text = ("I am glad you chose to explore my page "
-                          "Please tell us what you thought about your experience")).grid(row = 1, column = 1)
+                  text = ("I am glad you chose to explore my page. "
+                          "Please tell us what you thought about your experience.")).grid(row = 1, column = 1)
         
         self.frame_content = ttk.Frame(master)
         self.frame_content.pack()
